@@ -8,14 +8,14 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import "./Navbar.scss";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 const Navigation = () => (
   <Navbar variant="dark" expand="lg">
     <Container>
       <Navbar.Brand href="#home">
         <img
-          scr={logo}
+          src={logo}
           height="30"
           className="d-inline-block align-top"
           alt="Magbank logo"

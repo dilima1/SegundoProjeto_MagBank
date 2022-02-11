@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import "./App.scss"
-
+import Hero from "./components/Hero";
+import "./App.scss";
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Hero />
     </div>
   );
-}
+};
 
 export default App;
